@@ -2,16 +2,17 @@
 #include<math.h>
 #include "tsum.h"
 int main() {
-	printf("Tinh tong cua day so:\n");
+	printf("Calculate the sum of numbers:\n");
 	double x;
 	int n;
-	printf("+Nhap x:");
+	printf("+Input x:");
 	scanf("%lf",&x);
 	do
 	{
-	printf("+Nhap n:");
-	scanf("%d",&n);
+	printf("+Input n:");         //Если n <1, введите еще раз
+	scanf("%d",&n);	
 	}while(n<1);
+	
         tsum(x,n);
         return 0;
 }
