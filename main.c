@@ -1,3 +1,4 @@
+//У меня вариант 48
 #include<stdio.h>
 #include<math.h>
 #include "tsum.h"
