@@ -21,7 +21,7 @@ double tsum(double a,int y)
 		}
 		sum += t/m;
                 }
-        printf("SUm: %lf \n",sum);
+        printf("Sum: %lf \n",sum);
         }
 	return sum;
 }
